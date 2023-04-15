@@ -67,18 +67,21 @@ export default function Home() {
             <div className='flex items-center gap-4 rounded-md overflow-hidden bg-gradient-to-bl from-zinc-700 via-zinc-700 to-zinc-950 w-72 shadow-sm'>
               <Image className='w-24'
                 src={eazyePlaylist}
+                alt='Ilustração da sua playlist'
               />
               <span className='font-semibold'>Eazy-e mix</span>
             </div>
             <div className='flex items-center gap-4 rounded-md overflow-hidden bg-gradient-to-bl from-zinc-700 via-zinc-700 to-zinc-950 w-72'>
               <Image className='w-24'
                 src={neffexPlaylist}
+                alt='Ilustração da sua playlist'
               />
               <span className='font-semibold'>Neffex Playlist</span>
             </div>
             <div className='flex items-center gap-4 rounded-md overflow-hidden w-72 bg-gradient-to-bl from-zinc-700 via-zinc-700 to-zinc-950'>
               <Image className='w-24'
                 src={illeniumPlaylist}
+                alt='Ilustração da sua playlist'
               />
               <span className='font-semibold'>Neffex Playlist</span>
             </div>
